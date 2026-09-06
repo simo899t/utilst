@@ -1,0 +1,14 @@
+[package]
+name = "funcst"
+version = "0.1.0"
+entrypoint = "lib.typ"
+authors = ["Simon Holm (@simo899t)"]
+license = "MIT"
+description = "General-purpose academic toolkit: theorem-style cards, function plotting, proof/AST trees, pseudocode, node graphs, and inline LaTeX math."
+repository = "https://github.com/simo899t/funcst"
+homepage = "https://github.com/simo899t/funcst"
+keywords = ["theorem", "plot", "pseudocode", "tree", "academic"]
+categories = ["components", "visualization"]
+disciplines = ["education", "mathematics", "computer-science"]
+compiler = "0.13.0"
+exclude = ["tests/**", ".DS_Store", "CHANGELOG.md"]
