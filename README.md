@@ -111,7 +111,7 @@ ln -s ~/GitHub/utilst ~/Library/Application\ Support/typst/packages/local/utilst
   caption: [This is a scaled tree graph],
 )
 ```
-<img width="365" height="268" alt="image" src="https://github.com/user-attachments/assets/e6839e39-8a91-4f3c-af78-824d68590062" />
+<img width="365" height="134" alt="Skærmbillede 2026-09-07 kl  11 50 35" src="https://github.com/user-attachments/assets/ead785f4-5f44-479e-b6a9-13a52da91574" />
 
 
 
