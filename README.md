@@ -1,4 +1,4 @@
-<img width="365" height="99" alt="currysttree" src="https://github.com/user-attachments/assets/c628d0fb-a0c7-46ba-9a3c-29cfbebe4a9c" /># utilst
+# utilst
 
 General-purpose academic Typst toolkit — institution-agnostic building
 blocks for visualising functions and computation:
@@ -63,7 +63,7 @@ ln -s ~/GitHub/utilst ~/Library/Application\ Support/typst/packages/local/utilst
   caption: [This is a graph],
 )
 ```
-<img width="169" height="150" alt="undirrectedgraph" src="https://github.com/user-attachments/assets/75c6ca38-e698-4d8a-9a64-4a82f35170af" />
+<img width="365" height="150" alt="undirrectedgraph" src="https://github.com/user-attachments/assets/75c6ca38-e698-4d8a-9a64-4a82f35170af" />
 
 ### proof trees
 ```typst
@@ -111,7 +111,7 @@ ln -s ~/GitHub/utilst ~/Library/Application\ Support/typst/packages/local/utilst
   caption: [This is a scaled tree graph],
 )
 ```
-<img width="730" height="268" alt="image" src="https://github.com/user-attachments/assets/e6839e39-8a91-4f3c-af78-824d68590062" />
+<img width="365" height="268" alt="image" src="https://github.com/user-attachments/assets/e6839e39-8a91-4f3c-af78-824d68590062" />
 
 
 
