@@ -63,7 +63,8 @@ ln -s ~/GitHub/utilst ~/Library/Application\ Support/typst/packages/local/utilst
   caption: [This is a graph],
 )
 ```
-<img width="365" height="150" alt="undirrectedgraph" src="https://github.com/user-attachments/assets/75c6ca38-e698-4d8a-9a64-4a82f35170af" />
+<img width="365" height="324" alt="undirrectedgraph" src="https://github.com/user-attachments/assets/033a1065-ea29-429c-93fd-d24a7610d606" />
+
 
 ### proof trees
 ```typst
