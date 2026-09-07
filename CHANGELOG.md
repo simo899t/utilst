@@ -12,6 +12,8 @@ this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
     string like `"x^2 + sin(y)"` as a callable).
   - `tree` (tidy proof/AST trees), `pseudo` (pseudocode), `graph`
     (node/edge diagrams), `tex` (inline LaTeX math).
+  - `code-style` / `simple-code` — code-block styling via `codly`
+    (also moved out of `sdust`).
   - `group-by-pairs` helper.
 - Re-exports `rule` / `prooftree` (curryst) and all of `h-graph`.
 

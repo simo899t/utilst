@@ -1,5 +1,6 @@
 // utilst is a general-purpose academic Typst toolkit.
-// This package includes function plotting, proof/AST trees, pseudocode and node graphs
+// Function plotting, proof/AST trees, pseudocode, node graphs, inline LaTeX
+// math, and code-block styling (codly).
 
 // ══════════════════════════════════════════════════════
 // IMPORTS
@@ -14,6 +15,40 @@
 #import "@preview/curryst:0.6.0": rule, prooftree
 #import "@preview/fletcher:0.5.7" as fletcher: diagram, node, edge
 #import "@preview/mitex:0.2.7": mitex
+#import "@preview/codly:1.3.0": codly, codly-init, no-codly
+#import "@preview/codly-languages:0.1.10": codly-languages
+
+// ══════════════════════════════════════════════════════
+// CODE BLOCKS  (codly)
+// ══════════════════════════════════════════════════════
+
+// Fancy code-block styling — language-coloured tab with icon, zebra
+// striping, rounded block, plus a tinted inline-code box. Apply it with
+// `#show: code-style`. Opt a region back out with `#simple-code[...]`.
+#let code-style(body) = {
+  show: codly-init
+  codly(
+    languages: codly-languages,
+    zebra-fill: luma(246),
+    display-name: true,
+    display-icon: true,
+    radius: 5pt,
+    stroke: 0.8pt + luma(220),
+  )
+  show raw.where(block: true): set text(font: "DejaVu Sans Mono", size: 9.5pt)
+  show raw.where(block: false): it => box(
+    fill: rgb("#eeeeee"),
+    inset: (x: 3pt, y: 0pt),
+    outset: (y: 3pt),
+    radius: 2pt,
+    text(fill: rgb("#1c1e26"), font: "DejaVu Sans Mono", size: 9pt, it),
+  )
+  body
+}
+
+// Opt a region out of codly back to a plain, unstyled code block.
+// Usage: #simple-code[```py ... ```]
+#let simple-code(body) = no-codly(body)
 
 // ══════════════════════════════════════════════════════
 // GRAPHS / DIAGRAMS
