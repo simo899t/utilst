@@ -1,6 +1,6 @@
-#import "@local/funcst:0.1.0": *
+#import "@local/utilst:0.1.0": *
 
-= funcst smoke test
+= utilst smoke test
 
 #plot2d(f: "sin(x)", x: (0, 6.28))
 #plot3d(f: "x^2 + y^2", x: (-2, 2), y: (-2, 2))

@@ -1,4 +1,4 @@
-# funcst
+# utilst
 
 General-purpose academic Typst toolkit — institution-agnostic building
 blocks for visualising functions and computation:
@@ -28,15 +28,15 @@ your OS:
 
 **macOS:**
 ```bash
-git clone https://github.com/simo899t/funcst ~/GitHub/funcst
-mkdir -p ~/Library/Application\ Support/typst/packages/local/funcst
-ln -s ~/GitHub/funcst ~/Library/Application\ Support/typst/packages/local/funcst/0.1.0
+git clone https://github.com/simo899t/utilst ~/GitHub/utilst
+mkdir -p ~/Library/Application\ Support/typst/packages/local/utilst
+ln -s ~/GitHub/utilst ~/Library/Application\ Support/typst/packages/local/utilst/0.1.0
 ```
 
 ## Usage
 
 ```typst
-#import "@preview/funcst:0.1.0": *
+#import "@preview/utilst:0.1.0": *
 
 #plot2d(f: "sin(x)", x: (0, 2 * calc.pi))
 #tree[

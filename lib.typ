@@ -1,4 +1,4 @@
-// funcst is a general-purpose academic Typst toolkit.
+// utilst is a general-purpose academic Typst toolkit.
 // This package includes function plotting, proof/AST trees, pseudocode and node graphs
 
 // ══════════════════════════════════════════════════════
